@@ -1,26 +1,33 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 body {
-    width:1200px;
-    height:90vh;
+    width:1350px;
     background: #D6E1F0; 
     text-align:center;
-   }
+     }
 
    .card {
     width:280px;
     background: #fff;
-    margin: 50px auto;
+    margin:100px auto 0 auto;
     border-radius:15px;
-   }
+    }
 
    .card img {
-    width:250px;
-    padding: 15px;
+    width:100%;
+    padding:15px;
+    
    }
 
    .card h3 {
     font-family:Outfit, sans-serif;
     font-weight:700;
     font-size:18px;
+    margin-bottom:10px;
     padding: 0 34px;
     text-align:justify;
    }
@@ -28,14 +35,15 @@ body {
    .card p {
     font-family:Outfit, sans-serif;
     font-size:14px;
-    padding:0 30px 40px 30px;
+    padding:5px 30px 40px 30px;
     text-align:center;
     color:#777;
   }
 
   .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top:5px;
   }
   .attribution a { 
     color: hsl(228, 45%, 44%); 
